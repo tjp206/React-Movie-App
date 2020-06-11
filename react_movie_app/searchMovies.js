@@ -6,7 +6,7 @@ export default function searchMovies() {
         e.preventDefault();
         console.log("submitting");
 
-        const query = "jurassic Park";
+        const query = "Jurassic Park";
 
         const url = `https://api.themoviedb.org/3/search/movie?
         api_key=1992c9b2518f3827c22ca49e132ad339&language=en-US&query=${query}&page=1&
